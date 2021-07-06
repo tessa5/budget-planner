@@ -14,13 +14,11 @@ const ExpenseItem = (props) => {
     };
     return(
         <>
-        <li className="">
-            {props.name}
-            <div>
-                <span className="">
-                    ${props.cost}
+        <li className="flex bg-gray-200">
+            <div className="flex-1 bg-blue-600 text-white my-2 ml-2 px-4 py-2"> {props.name} </div>
+            <div className="flex-1 bg-blue-900 text-white my-2 px-4 py-2">${props.cost}</div>
+            <div className="bg-red-500 text-white my-2 mr-2 px-4 py-2">
                     <TiDelete size='1.3em' onClick={handleDeleteExpense}></TiDelete>
-                </span>
             </div>
         </li>
         </>

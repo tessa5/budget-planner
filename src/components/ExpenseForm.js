@@ -24,31 +24,31 @@ const ExpenseForm = () => {
 
     return(
         <form onSubmit={onSubmit}>
-            <div className="row">
-                <div className="col-sm">
+            <div className="bg-gray-200">
+                <div className="block px-4 py-2 text-center text-black text-lg">
                     <label for="name">Name</label>
                     <input 
                     required='required'
                     text="text"
-                    className="form-control"
+                    className="ml-2"
                     id='name'
                     value={name}
                     onChange={ (event)=> setName(event.target.value)}
                     ></input>    
                 </div>
-                <div className='col-sm'>
+                <div className='block px-4 py-2 text-center text-black text-lg'>
                 <label for="cost">Cost</label>
                     <input 
                     required='required'
                     text="text"
-                    className="form-control"
+                    className="ml-2 "
                     id='cost'
                     value={cost}
                     onChange={ (event)=> setCost(event.target.value)}
                     ></input>  
                 </div>
-                <div className='col-sm'>
-                    <button type="submit" className=''>
+                <div className='block px-4 py-2 text-center text-black text-lg'>
+                    <button type="submit" className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
                         Save
                     </button>
                 </div>
