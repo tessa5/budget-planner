@@ -30,7 +30,7 @@ const ExpenseForm = () => {
                     <input 
                     required='required'
                     text="text"
-                    className="ml-2"
+                    className="ml-2 text-center "
                     id='name'
                     value={name}
                     onChange={ (event)=> setName(event.target.value)}
@@ -41,7 +41,7 @@ const ExpenseForm = () => {
                     <input 
                     required='required'
                     text="text"
-                    className="ml-2 "
+                    className="ml-2 text-center"
                     id='cost'
                     value={cost}
                     onChange={ (event)=> setCost(event.target.value)}

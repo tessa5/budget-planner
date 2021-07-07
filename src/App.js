@@ -10,7 +10,7 @@ import { AppProvider} from './Context/Context';
 function App() {
   return (
     <AppProvider>
-    <div className="container mx-auto px-8 bg-blue-800">
+    <div className="container mx-auto pb-6 px-8 bg-blue-800">
       <h1 className="mt-4 text-white text-center text-3xl p-4">My Budget Planner</h1>
       <div className="bg-gray-200 p-4 mt-3">
         <div className="block px-4 py-2 text-center text-white text-2xl bg-green-500">
