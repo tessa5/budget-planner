@@ -12,7 +12,7 @@ function App() {
     <AppProvider>
     <div className="container mx-auto pb-6 px-8 bg-blue-800">
       <h1 className="mt-4 text-white text-center text-3xl p-4">My Budget Planner</h1>
-      <div className="bg-gray-200 p-4 mt-3">
+      <div className="bg-gray-200 p-4">
         <div className="block px-4 py-2 text-center text-white text-2xl bg-green-500">
           <Budget/>
         </div>

@@ -6,7 +6,7 @@ const Budgetedit = (props) =>  {
         <div>
             <input
                 type="number"
-                className="ml-2 text-center text-black font-light text-2xl"
+                className="text-center text-black font-light text-2xl w-24 w-full"
                 required="required"
                 id="name"
                 value={value}
@@ -14,7 +14,7 @@ const Budgetedit = (props) =>  {
             />
             <button
                 type="type"
-                className=""
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded ml-8 mt-2"
                 onClick={() =>props.handleSaveClick(value)}
             >Save</button>
         </div>
